@@ -1,6 +1,6 @@
 # embedded-energy-mgtm
 A collection of experiments to analyze, optimize and demonstrate energy management techniques in embedded systems.
-There are 4 main folders, one for each energy aspect that was taken into consideration. Code is usually C++, Matlab or a mix of the two. A detailed report (available in pdf format) is associated to each experiment.
+There are 4 main folders, one for each energy aspect that was taken into consideration. Code is usually C++, Matlab or a mix of the two. A detailed report (available in pdf format) is associated to each experiment and can be found in the Reports folder. It is reccomended to go through these before looking at the code and the results.
 
 ## DPM
 The purpose was to experience basic DPM policies by using a C++ simulator. A sample PSM (Power State Machine) was given and was integrated with some advanced policies and additional features. By default, an example workload file was provided and five more were generated. These files were then the basis for testing the efficiency of different policies.
