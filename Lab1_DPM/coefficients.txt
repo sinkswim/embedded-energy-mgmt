@@ -1,0 +1,224 @@
+p1 = uni low win 1 degree 2
+p2 = uni low win 2 degree 2
+p3 = uni low win 3 degree 2
+p4 = normal  win 1 degree 2
+p5 = normal  win 2 degree 2
+p6 = normal  win 3 degree 2
+p7 = normal  win 1 degree 1
+p8 = normal  win 1 degree 2 = p4
+p9 = normal  win 1 degree 3
+
+
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+p1 =
+
+    0.0001   -0.0096  200.3476
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+p2 = 
+
+  struct with fields:
+
+      ModelTerms: [6×2 double]
+    Coefficients: [6.4395e-05 6.0932e-05 -0.0218 -1.3919e-04 0.0487 198.0320]
+       DataRange: [2×2 double]
+    ParameterVar: [9.5421e-09 7.4398e-09 0.0019 9.5366e-09 0.0019 34.8003]
+    ParameterStd: [9.7684e-05 8.6254e-05 0.0438 9.7655e-05 0.0439 5.8992]
+              R2: 5.8439e-04
+            RMSE: 115.7709
+        VarNames: {'X1'  'X2'}
+
+
+p2expr =
+    6.4395e-05*X1^2 + 6.0932e-05*X1*X2 - 0.021838*X1 - 0.00013919*X2^2 + 0.04867*X2 + 198.032
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+p3 = 
+
+  struct with fields:
+
+      ModelTerms: [10×3 double]
+    Coefficients: [1×10 double]
+       DataRange: [2×3 double]
+    ParameterVar: [1×10 double]
+    ParameterStd: [1×10 double]
+              R2: 8.6625e-04
+            RMSE: 115.7546
+        VarNames: {'X1'  'X2'  'X3'}
+
+
+
+p3expr =
+    6.5949e-05*X1^2 + 6.3735e-05*X1*X2 - 2.0246e-05*X1*X3 - 0.018682*X1 - 0.00013782*X2^2 - 0.00011289*X2*X3 + 0.070208*X2 + 9.8322e-05*X3^2 - 0.015121*X3 + 195.952
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+p4 =
+
+   -0.0003    0.0611   96.4589
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+p5 = 
+
+  struct with fields:
+
+      ModelTerms: [6×2 double]
+    Coefficients: [-2.6578e-04 -3.5880e-04 0.0971 4.6869e-04 -0.0616 97.7256]
+       DataRange: [2×2 double]
+    ParameterVar: [1.2318e-07 2.4777e-07 0.0075 1.1997e-07 0.0071 47.5483]
+    ParameterStd: [3.5097e-04 4.9777e-04 0.0864 3.4637e-04 0.0843 6.8955]
+              R2: 3.7192e-04
+            RMSE: 20.0489
+        VarNames: {'X1'  'X2'}
+
+
+
+p5expr =
+    -0.00026578*X1^2 - 0.0003588*X1*X2 + 0.097145*X1 + 0.00046869*X2^2 - 0.061564*X2 + 97.7256
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+p6 = 
+
+  struct with fields:
+
+      ModelTerms: [10×3 double]
+    Coefficients: [1×10 double]
+       DataRange: [2×3 double]
+    ParameterVar: [1×10 double]
+    ParameterStd: [1×10 double]
+              R2: 4.2539e-04
+            RMSE: 20.0484
+        VarNames: {'X1'  'X2'  'X3'}
+
+
+
+p6expr =
+    -0.00026409*X1^2 - 0.00035764*X1*X2 - 6.6031e-05*X1*X3 + 0.10328*X1 + 0.00047899*X2^2 - 0.00018497*X2*X3 - 0.045375*X2 - 0.00019344*X3^2 + 0.061945*X3 + 93.6849
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+p7 =
+
+    0.0083   98.9807
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+p8 =
+
+   -0.0003    0.0611   96.4589
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+p9 =
+
+    0.0000   -0.0031    0.3331   88.1660
+——————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+UNI LOW: il valore predetto e’ intorno ai 200 (~195-205) perché abbiamo la distribuzione random tra 1 e 400 quindi avendo ad esempio una finestra di 3 peschiamo 3 valori a random in questo intervallo e il risultato e’ la meta’ di questo intervallo essendo una media tra tre valori equiprobabili.  Quindi, imponendo una Tbe di 55 andremo sempre in idle, e mai in sleep (Tbe-sleep=270).
+
+NORMAL: qui i valori sono principalmente uguali a 100 (scostamento di 20..quindi i valori tra 80 e 120 su 10000 campioni sono 1 ordine di grandezza superiore ai valori fuori dall’intervallo (80-120).  Quindi il valore predetto e’ intorno al valore 100 (95-105).  Quindi come sopra, andiamo sempre in idle e mai in sleep.
+
+EQUAZIONI:  in effetti osservando i coefficienti delle equazioni ottenute da Matlab possiamo vedere che (nel caso della UNI LOW) abbiamo il coefficiente che non va a moltiplicare uguale ad un valore intorno ai ~200.  Aumentando la window questo valore va a diminuire ad esempio: 200, 198, 195 a parità’ di grado!…quindi O aumentando la window  O aumentando il grado si osserva questo comportamento, ancora non sappiamo perché invece a parità’ di window (su p7, p8, p9) nel caso normal abbiamo: 98, 96, 88…dobbiamo fare delle prove con p10, p11, etc…per provare gradi superiori.
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+uniform high w2 g2 -> phigh
+
+>> phigh = polyfitn([h1, h2], yh, 2)
+
+phigh = 
+
+  struct with fields:
+
+      ModelTerms: [6×2 double]
+    Coefficients: [-8.6841e-06 3.6854e-04 -0.0251 4.2320e-04 -0.0612 52.3082]
+       DataRange: [2×2 double]
+    ParameterVar: [1.5016e-07 1.2225e-07 0.0020 1.5009e-07 0.0020 2.3010]
+    ParameterStd: [3.8750e-04 3.4965e-04 0.0442 3.8742e-04 0.0443 1.5169]
+              R2: 2.8466e-04
+            RMSE: 28.6815
+        VarNames: {'X1'  'X2'}
+
+>> phigh_expr = polyn2sympoly(phigh)
+phigh_expr =
+    -8.6841e-06*X1^2 + 0.00036854*X1*X2 - 0.025097*X1 + 0.0004232*X2^2 - 0.061209*X2 + 52.3082
+
+——————————————————————————————————————————————————————————————————————————————————————————
+
+TRIMODAL
+w1 g1 = pt1
+w1 g2 = pt2
+w1 g3 = pt3
+w2 g2 = pt4
+w3 g2 = pt5
+
+>> pt4 = polyfitn([t1, t2], yt, 2)
+
+pt4 = 
+
+  struct with fields:
+
+      ModelTerms: [6×2 double]
+    Coefficients: [-1.4970e-04 -1.7599e-04 0.0537 -1.6509e-04 0.0239 98.2989]
+       DataRange: [2×2 double]
+    ParameterVar: [8.6363e-08 5.6545e-08 0.0042 8.6077e-08 0.0041 19.9251]
+    ParameterStd: [2.9388e-04 2.3779e-04 0.0645 2.9339e-04 0.0643 4.4638]
+              R2: 8.7306e-04
+            RMSE: 42.1562
+        VarNames: {'X1'  'X2'}
+
+>> pt4expr= polyn2sympoly(pt4)
+pt4expr =
+    -0.0001497*X1^2 - 0.00017599*X1*X2 + 0.053659*X1 - 0.00016509*X2^2 + 0.023906*X2 + 98.2989
+>> pt5 = polyfitn([t1, t2, t3], yt, 2)
+
+pt5 = 
+
+  struct with fields:
+
+      ModelTerms: [10×3 double]
+    Coefficients: [1×10 double]
+       DataRange: [2×3 double]
+    ParameterVar: [1×10 double]
+    ParameterStd: [1×10 double]
+              R2: 0.0016
+            RMSE: 42.1412
+        VarNames: {'X1'  'X2'  'X3'}
+
+>> pt5expr= polyn2sympoly(pt5)
+pt5expr =
+    -0.00015511*X1^2 - 0.0001872*X1*X2 - 0.00012059*X1*X3 + 0.068142*X1 - 0.00015774*X2^2 - 0.00040449*X2*X3 + 0.064277*X2 + 0.00055456*X3^2 - 0.05285*X3 + 96.9014
+>> pt1 = polyfit(t1, yt, 1)
+
+pt1 =
+
+    0.0057   99.9997
+
+>> pt2 = polyfit(t1, yt, 2)
+
+pt2 =
+
+   -0.0001    0.0359   98.7489
+
+>> pt3 = polyfit(t1, yt, 3)
+
+pt3 =
+
+    0.0000   -0.0004    0.0578   98.1709

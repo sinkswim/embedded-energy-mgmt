@@ -1,0 +1,255 @@
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.1.03.tiff    6.332202e+02    6.027513e+02     6.241787e+02     6.162281e+02     6.027513e+02
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.1.03.tiff    6.332202e+02     5.709148e+02     5.807323e+02     6.027513e+02
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.1.03.tiff     0.872216    0.903199     0.302707     0.872216
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.1.03.tiff    4.811733    1.427858    2.683446    4.811733
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.1.03.tiff    9.839445    8.289044    4.811733
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.1.03.tiff    14.525000   14.625000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.1.03.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.1.04.tiff    5.456049e+02    5.194914e+02     5.194914e+02     5.301845e+02     5.194914e+02
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.1.04.tiff    5.456049e+02     5.194914e+02     5.042067e+02     5.194914e+02
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.1.04.tiff     0.959577    0.959577     0.308497     0.959577
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.1.04.tiff    4.786161    4.786161    2.826295    4.786161
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.1.04.tiff    4.786161    7.587576    4.786161
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.1.04.tiff    14.825000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.1.04.tiff    14.825000   0.000000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.1.06.tiff    6.058473e+02    5.761065e+02     5.761065e+02     5.884932e+02     5.761065e+02
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.1.06.tiff    6.058473e+02     5.761065e+02     5.595089e+02     5.761065e+02
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.1.06.tiff     0.972181    0.972181     0.232532     0.972181
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.1.06.tiff    4.908952    4.908952    2.864423    4.908952
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.1.06.tiff    4.908952    7.648526    4.908952
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.1.06.tiff    14.825000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.1.06.tiff    14.825000   0.000000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.1.08.tiff    7.010107e+02    6.665412e+02     6.855679e+02     6.809150e+02     6.665412e+02
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.1.08.tiff    7.010107e+02     6.363862e+02     6.416997e+02     6.665412e+02
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.1.08.tiff     0.880612    0.533557     0.244894     0.880612
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.1.08.tiff    4.917108    2.202929    2.866669    4.917108
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.1.08.tiff    9.218759    8.460784    4.917108
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.1.08.tiff    14.575000   14.625000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.1.08.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.01.tiff    2.043088e+03    1.946811e+03     2.002675e+03     1.987550e+03     1.946811e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.01.tiff    2.043088e+03     1.904851e+03     1.890769e+03     1.946811e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.01.tiff     0.950550    0.920782     0.333995     0.950550
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.01.tiff    4.712326    1.978017    2.718325    4.712326
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.01.tiff    6.766062    7.455312    4.712326
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.01.tiff    14.650000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.01.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.02.tiff    3.486865e+03    3.286753e+03     3.347495e+03     3.342178e+03     3.286753e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.02.tiff    3.486865e+03     3.270618e+03     3.265433e+03     3.286753e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.02.tiff     0.987850    0.703822     0.653473     0.987850
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.02.tiff    5.739025    3.997013    4.149493    5.739025
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.02.tiff    6.201774    6.350452    5.739025
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.02.tiff    14.725000   14.725000   14.800000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.02.tiff    14.800000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.03.tiff    2.314990e+03    2.203133e+03     2.276761e+03     2.249335e+03     2.203133e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.03.tiff    2.314990e+03     2.117392e+03     2.138546e+03     2.203133e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.03.tiff     0.929558    0.906177     0.273353     0.929558
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.03.tiff    4.831884    1.651369    2.836098    4.831884
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.03.tiff    8.535578    7.621811    4.831884
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.03.tiff    14.575000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.03.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.04.tiff    2.342441e+03    2.228806e+03     2.292463e+03     2.275740e+03     2.228806e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.04.tiff    2.342441e+03     2.131948e+03     2.163601e+03     2.228806e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.04.tiff     0.955895    0.644622     0.288003     0.955895
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.04.tiff    4.851147    2.133576    2.847494    4.851147
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.04.tiff    8.986031    7.634786    4.851147
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.04.tiff    14.575000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.04.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.05.tiff    3.173295e+03    3.012944e+03     3.095822e+03     3.078217e+03     3.012944e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.05.tiff    3.173295e+03     2.872654e+03     2.900129e+03     3.012944e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.05.tiff     0.911439    0.384319     0.164901     0.911439
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.05.tiff    5.053135    2.441410    2.996199    5.053135
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.05.tiff    9.474094    8.608259    5.053135
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.05.tiff    14.575000   14.625000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.05.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+4.2.07.tiff    2.070088e+03    1.971455e+03     2.029716e+03     2.011675e+03     1.971455e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+4.2.07.tiff    2.070088e+03     1.903944e+03     1.914404e+03     1.971455e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+4.2.07.tiff     0.924195    0.839395     0.220273     0.924195
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+4.2.07.tiff    4.764658    1.950262    2.821771    4.764658
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+4.2.07.tiff    8.025946    7.520650    4.764658
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+4.2.07.tiff    14.600000   14.650000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+4.2.07.tiff    14.825000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+shot1 copy.png    6.275470e+02    6.113070e+02     6.113070e+02     6.161050e+02     6.113070e+02
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+shot1 copy.png    6.275470e+02     6.113070e+02     6.020013e+02     6.113070e+02
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+shot1 copy.png     0.851758    0.851758     0.230143     0.851758
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+shot1 copy.png    2.587845    2.587845    1.823287    2.587845
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+shot1 copy.png    2.587845    4.070722    2.587845
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+shot1 copy.png    14.825000   14.675000   14.825000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+shot1 copy.png    14.825000   0.000000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+shot2 copy.png    4.549650e+03    4.285234e+03     4.355535e+03     4.351301e+03     4.285234e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+shot2 copy.png    4.549650e+03     4.190032e+03     4.185908e+03     4.285234e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+shot2 copy.png     0.995032    0.408452     0.332969     0.995032
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+shot2 copy.png    5.811784    4.266593    4.359645    5.811784
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+shot2 copy.png    7.904295    7.994940    5.811784
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+shot2 copy.png    14.675000   14.675000   14.800000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+shot2 copy.png    14.800000   0.025000   1.025000   0.000000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+shot3 copy.png    4.807526e+03    4.532294e+03     4.567330e+03     4.564450e+03     4.588545e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+shot3 copy.png    4.807526e+03     4.493028e+03     4.490041e+03     4.551100e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+shot3 copy.png     0.938734    0.654368     0.630839     0.871973
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+shot3 copy.png    5.725030    4.996251    5.056164    4.554960
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+shot3 copy.png    6.541789    6.603926    5.333845
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+shot3 copy.png    14.750000   14.750000   14.775000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+shot3 copy.png    14.800000   0.025000   1.025000   0.025000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+shot4 copy.png    4.163941e+03    3.927455e+03     3.984275e+03     3.976811e+03     4.014191e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+shot4 copy.png    4.163941e+03     3.858206e+03     3.850760e+03     3.981135e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+shot4 copy.png     0.966514    0.570942     0.398771     0.969589
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+shot4 copy.png    5.679384    4.314809    4.494054    3.596357
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+shot4 copy.png    7.342438    7.521259    4.390223
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+shot4 copy.png    14.700000   14.700000   14.775000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+shot4 copy.png    14.800000   0.025000   1.025000   0.025000
+
+
+
+Filename    PowOrig     PowDVS     PowBrightDVS    PowContrastDVS    PowComboDVS
+shot5 copy.png    4.624362e+03    4.359898e+03     4.397031e+03     4.391600e+03     4.426019e+03
+Filename    PowOrig      PowBrightDVSOpt    PowContrastDVSOpt    PowComboDVSOpt
+shot5 copy.png    4.624362e+03     4.325909e+03     4.320475e+03     4.426019e+03
+Filename     Orig2DVSDist    Orig2BrightDVSDist     Orig2ContrDVSDist     Orig2ComboDVSDist
+shot5 copy.png     0.948935    0.675206     0.609971     0.988404
+Filename   Orig2DVSPowSav    Orig2BrightDVSPowSav     Orig2ContrDVSPowSav     Orig2ComboDVSPowSav
+shot5 copy.png    5.718910    4.915942    5.033372    4.289083
+Filename    Orig2BrightDVSPowSavOpt     Orig2ContrDVSPowSavOpt     Orig2ComboDVSPowSavOpt
+shot5 copy.png    6.453925    6.571432    4.289083
+Filename  newVddBrightness   newVddContrast  newVddCombo 
+shot5 copy.png    14.750000   14.750000   14.800000
+Filename   foundVdd    foundBrightB   foundContrB   foundComboB
+shot5 copy.png    14.800000   0.025000   1.025000   0.025000
+
+
+
