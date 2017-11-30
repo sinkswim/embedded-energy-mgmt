@@ -2,8 +2,8 @@
 A collection of experiments to analyze, optimize and demonstrate energy management techniques in embedded systems.
 There are 4 main folders, one for each energy aspect that was taken into consideration. Code is usually C++, Matlab or a mix of the two. A detailed report (available in pdf format) is associated to each experiment and can be found in the Reports folder. It is recommended to go through these before looking at the code and the results.
 
-## DPM
-The purpose was to experience basic DPM policies by using a C++ simulator. A sample PSM (Power State Machine) was given and was integrated with some advanced policies and additional features. By default, an example workload file was provided and five more were generated. These files were then the basis for testing the efficiency of different policies.
+## Dynamic Power Management
+The purpose was to experience basic Dynamic Power Management (DPM) policies by using a C++ simulator. A sample Power State Machine (PSM) was given and was integrated with some advanced policies and additional features. By default, an example workload file was provided and five more were generated. These files were then the basis for testing the efficiency of different policies.
 
 ## Encoding
 The purpose was to familiarize with energy estimation in buses and data encoding. For this purpose several different data and address traces were produced and the energy required for their transmission was evaluated taking into consideration a simple wire
